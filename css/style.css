@@ -1,0 +1,82 @@
+/* Common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Body Container */
+
+.body-container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+
+header{
+    margin: 3% 0;
+}
+
+.header-box{
+    margin: 2% 0;
+}
+
+.header-box:first-child{
+    height: 100px;
+    background-color: violet;
+}
+
+.header-box:last-child{
+    height: 300px;
+    background-color: lightgreen;
+}
+
+/* Main */
+
+main{
+    background-color: blueviolet;
+}
+
+.main-title{
+    background-color: pink;
+    height: 100px;
+}
+
+.col{
+    background-color: pink;
+    height: 600px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.left{
+    float: left;
+    margin-right: 2%;
+    width: 22%;
+}
+
+.right{
+    float: right;
+    margin-left: 2%;
+    width: 22%;
+}
+
+.center{
+    float: left;
+    width: 52%;
+}
+
+/* Footer */
+
+footer{
+    background-color: blue;
+    height: 100px;
+    margin-top: 1%;
+}
