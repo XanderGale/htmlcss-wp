@@ -98,11 +98,6 @@ nav ul li a{
 }
 
 /* Main */
-
-main{
-    background-color: transparent;
-}
-
 .main-title{
     background-color: transparent;
 }
@@ -135,12 +130,14 @@ main .text-container h3{
 }
 
 /* Columns */
-
+main{
+    height: fit-content;
+}
 .col{
     position: relative;
+    height: 500px;
     margin-top: 1%;
     margin-bottom: 1%;
-    height: 600px;
 }
 
 .left{
@@ -172,7 +169,13 @@ main .text-container h3{
 /* Footer */
 
 footer{
-    background-color: blue;
     height: 100px;
     margin-top: 1%;
+    align-items: center;
+    text-align: center;
+}
+
+footer span{
+    font-size: 20px;
+    font-weight: bolder;
 }
