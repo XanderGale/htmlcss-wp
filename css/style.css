@@ -135,7 +135,6 @@ main{
 }
 .col{
     position: relative;
-    height: 675px;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -158,10 +157,7 @@ main{
 }
 
 .text-container {
-    position: absolute;
     color: white;
-    top: 215px;
-    left: 0;
     width: 100%;
     margin-top: 20px;
 }
